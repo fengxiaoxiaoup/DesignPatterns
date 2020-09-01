@@ -9,8 +9,8 @@ public class TestString {
 
         System.out.println(s1 == s2); //true
         System.out.println(s1 == s3); //false
-        System.out.println(s3 == s4);
-        System.out.println(s3.intern() == s1);
-        System.out.println(s3.intern() == s4.intern());
+        System.out.println(s3 == s4); // false
+        System.out.println(s3.intern() == s1); //true
+        System.out.println(s3.intern() == s4.intern()); //true
     }
 }

@@ -12,6 +12,7 @@ public class Computer {
     }
 
     public static void main(String[] args) {
+        // 个人客户和企业客户买电脑的不同优惠
         PersonelVisitor p = new PersonelVisitor();
         new Computer().acccept(p);
         System.out.println(p.totalPrice);

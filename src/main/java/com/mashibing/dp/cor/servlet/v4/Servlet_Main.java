@@ -3,6 +3,9 @@ package com.mashibing.dp.cor.servlet.v4;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * FilterChain不再继承Filter.
+ */
 public class Servlet_Main {
     public static void main(String[] args) {
         Request request = new Request();

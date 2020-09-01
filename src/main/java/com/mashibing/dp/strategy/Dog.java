@@ -8,7 +8,7 @@ public class Dog implements Comparable<Dog> {
         this.food = food;
     }
 
-    @Override
+
     public int compareTo(Dog d) {
         if(this.food < d.food) return -1;
         else if(this.food > d.food) return 1;
